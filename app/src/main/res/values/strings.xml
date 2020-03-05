@@ -5,7 +5,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="enter_total_bill">Enter Total Bill:</string>
-    <string name="tip_percentage">Tip Percentage:</string>
+    <string name="tip_percentage">Tip Percentage: (Enter a Whole Number)</string>
     <string name="number_of_people_paying">Number of People Paying:</string>
     <string name="calculate">Calculate</string>
     <string name="miles">Miles:</string>
