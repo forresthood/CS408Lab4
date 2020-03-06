@@ -8,12 +8,13 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.View.OnClickListener;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DegreeFragment extends Fragment {
+public class DegreeFragment extends Fragment implements OnClickListener {
 
 
     public DegreeFragment() {
@@ -25,7 +26,14 @@ public class DegreeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_degree, container, false);
+        View view =  inflater.inflate(R.layout.fragment_degree, container, false);
+
+
+        return view;
     }
 
+    @Override
+    public void onClick(View v) {
+        
+    }
 }
