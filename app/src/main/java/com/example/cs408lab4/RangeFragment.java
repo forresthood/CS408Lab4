@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
 
+import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
 
@@ -20,7 +21,6 @@ import java.text.DecimalFormat;
  * A simple {@link Fragment} subclass.
  */
 
-// todo: change doubles to BigDecimals
 public class RangeFragment extends Fragment implements OnClickListener {
 
     private EditText miles;
@@ -51,6 +51,7 @@ public class RangeFragment extends Fragment implements OnClickListener {
     public void onClick(View v) {
         String result;
         DecimalFormat df = new DecimalFormat("#.####");
+        df.setRoundingMode(RoundingMode.HALF_UP);
         String m = miles.getText().toString();
         String k = kilometers.getText().toString();
 

@@ -13,4 +13,5 @@
     <string name="farenheit">Farenheit:</string>
     <string name="celcius">Celcius:</string>
     <string name="convert">Convert</string>
+    <string name="fahrenheit">Fahrenheit</string>
 </resources>
